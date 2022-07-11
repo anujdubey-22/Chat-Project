@@ -1,0 +1,54 @@
+
+.container{
+  /* Chat.js */
+  width:80vmax;
+}
+
+
+.card{
+  /* Chat.js */
+  height: 35vmax;
+  
+}
+
+.card-body{
+  /* Chat.js */
+  overflow: auto;
+}
+
+
+
+.input{
+  /* Chat.js */
+  width:490px;
+}
+
+.icon:hover{
+  /* Chat.js */
+  cursor: pointer;
+  transition: all 2s;
+  background-color: rgb(190, 206, 200);
+  transform:translate3d(5px,5px,5px)
+  
+}
+
+@media (max-aspect-ratio:980/689){
+  .input{
+      /* Chat.js */
+      width:400px
+  }
+}
+
+@media (max-aspect-ratio:1200/778){
+  .card{
+      /* Chat.js */
+      height: 50vmax;
+  }
+}
+
+@media (max-aspect-ratio:769/673){
+  .input{
+      /* Chat.js */
+      width: 300px;
+  }
+}
